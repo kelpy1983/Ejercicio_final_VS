@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +8,8 @@
 <body>
     <h1>Formulario de contacto</h1>
     <form action="" method="get">
+        <fieldset>
+        <legend>Datos personales</legend>
         <label for=""nombre>Nombre</label>
         <input type="text" name="nombre" id="">
         <br>
@@ -33,7 +35,9 @@
         <input type="radio" name="movilidad" id="" value="No">No
         <br>
         <br>
-        <Label>Puestos de trabajo</Label>
+        </fieldset>
+        <fieldset>
+        <legend>Puestos de trabajo</legend>
         <input type="checkbox" name="Puestos" id="" value="Junior" multiple>Programador Junior
         <input type="checkbox" name="Puestos" id="" value="Senior" multiple>Programador Senior
         <input type="checkbox" name="Puestos" id="" value="Analista" multiple >Analista
@@ -49,6 +53,7 @@
         <br>
              
         </select>
+        </fieldset>
         <br>
         <br>
 
@@ -56,7 +61,7 @@
        <textarea name="presentacion" id=""></textarea>
        <br>
        <br>
-       <input type="button" value="AdjuntarCV">
+       <input type="file" id="cv"
        <br>
        <br>    
        <input type="checkbox" name="consentimiento" id=""checked>Acepto el tratamiento de los datos
@@ -64,9 +69,9 @@
        <input type="checkbox" name="informacion" id="">Deseo recibir informacion
        <br>
        <br>
-       <input type="button" value="Enviar">
+       <input type="submit" value="Enviar">
        <br>
-       <input type="button" value="Limpiar">
+       <input type="reset" value="Limpiar">
        <br>
        <br>       
        <label for="Informacion">Información de la empresa</label>
